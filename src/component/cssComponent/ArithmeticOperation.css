@@ -1,0 +1,54 @@
+body{
+  font-family: 'Josefin Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Quattrocento Sans', sans-serif;
+background-color: white;
+}
+.container{
+ 
+  margin-left: 29%;
+  margin-top: 13%;
+  padding: 100px 50px;
+  height: max-content;
+  width: 35%;
+  background-color: rgb(34, 49, 63);
+  color: white;
+  line-height: 50px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+
+}
+input{
+  margin-left: 10px;
+  height: 25px;
+  width: 45px;
+  border: none ;
+  padding-left: 28px;
+  border-radius: 3px;
+}
+select{
+  margin-left: 10px;
+  height: 25px;
+  width: 50px;
+  padding-left: 15px;
+
+}
+button{
+  position: relative;
+  /* left:300px;
+  bottom: 60px; */
+  margin-left: 10px;
+  padding:15px 35px;
+  border: solid 2px white;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.3s;
+  color: rgb(34, 49, 63);
+  font-weight: bold;
+  font-size: 14px;
+}
+button:active{
+  
+  background-color:rgba(34, 49, 63,0.2);
+  color: white;
+}
